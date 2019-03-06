@@ -16,9 +16,8 @@ public class ContactViewHolder extends RecyclerView.ViewHolder {
     public ContactViewHolder(@NonNull View itemView) {
         super(itemView);
 
-        contact_img=itemView.findViewById(R.id.contact_img);
-        contact_name=itemView.findViewById(R.id.contact_name);
-        contact_num=itemView.findViewById(R.id.contact_num);
-        contact_call=itemView.findViewById(R.id.contact_call) ;
+        contact_img=itemView.findViewById(R.id.img);
+        contact_name=itemView.findViewById(R.id.text_android);
+        contact_num=itemView.findViewById(R.id.desc);
     }
 }
